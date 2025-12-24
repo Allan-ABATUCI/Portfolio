@@ -1,6 +1,5 @@
 "use client";
 
-import Image from "next/image";
 import { motion } from "framer-motion";
 import Link from "next/link";
 import { BsArrowRight, BsLinkedin } from "react-icons/bs";
@@ -9,9 +8,6 @@ import { FaGithubSquare } from "react-icons/fa";
 
 
 export default function Description() {
-
-
-
   return (
     <section
       id="home"
@@ -19,23 +15,7 @@ export default function Description() {
     >
       <div className="flex items-center justify-center">
         <div className="relative">
-          <motion.div
-            initial={{ opacity: 0, scale: 0 }}
-            animate={{ opacity: 1, scale: 1 }}
-            transition={{
-              type: "tween",
-              duration: 0.2,
-            }}
-          >
-            <Image
-              src="portrait.webp"
-              alt="portrait Allan"
-              width="192"
-              height="192"
-              priority={true}
-              className="h-24 w-24 rounded-full object-cover border-[0.35rem] border-white shadow-xl"
-            />
-          </motion.div>
+         
 
           <motion.span
             className="absolute bottom-0 right-0 text-4xl"
@@ -58,10 +38,9 @@ export default function Description() {
         initial={{ opacity: 0, y: 100 }}
         animate={{ opacity: 1, y: 0 }}
       >
-        <span className="font-bold">Salut, c'est Allan</span> un étudiant en BUT Informatique
-        <span className="font-bold">4 mois</span> od'expérience. J'aime
-        construire des <span className="italic">sites & apps</span>. My focus is{" "}
-        <span className="underline">React (Next.js)</span>.
+        <strong>Salut c'est <em> Allan</em></strong>, en dernière année de BUT Informatique avec
+        <span className="font-bold"> 4 mois</span> d'expérience. J'aime
+        construire des <em>sites & apps</em>.
       </motion.h1>
 
       <motion.div
@@ -75,7 +54,6 @@ export default function Description() {
         <Link
           href="#contact"
           className="group bg-gray-900 text-white px-7 py-3 flex items-center gap-2 rounded-full outline-none focus:scale-110 hover:scale-110 hover:bg-gray-950 active:scale-105 transition"
-
         >
           Contactez moi ici{" "}
           <BsArrowRight className="opacity-70 group-hover:translate-x-1 transition" />
@@ -86,13 +64,13 @@ export default function Description() {
           href="/CV_Allan_Abatuci.pdf"
           download
         >
-          Download CV{" "}
+          Mon CV{" "}
           <HiDownload className="opacity-60 group-hover:translate-y-1 transition" />
         </a>
 
         <a
           className="bg-white p-4 text-gray-700 hover:text-gray-950 flex items-center gap-2 rounded-full focus:scale-[1.15] hover:scale-[1.15] active:scale-105 transition cursor-pointer borderBlack dark:bg-white/10 dark:text-white/60"
-          href="https://linkedin.com"
+          href="https://www.linkedin.com/in/allan-abatuci-202680258"
           target="_blank"
         >
           <BsLinkedin />
@@ -100,7 +78,7 @@ export default function Description() {
 
         <a
           className="bg-white p-4 text-gray-700 flex items-center gap-2 text-[1.35rem] rounded-full focus:scale-[1.15] hover:scale-[1.15] hover:text-gray-950 active:scale-105 transition cursor-pointer borderBlack dark:bg-white/10 dark:text-white/60"
-          href="https://github.com"
+          href="https://github.com/Allan-ABATUCI"
           target="_blank"
         >
           <FaGithubSquare />
