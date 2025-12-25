@@ -9,10 +9,6 @@ export const links = [
     hash: "#home",
   },
   {
-    name: "moi",
-    hash: "#about",
-  },
-  {
     name: "Projets",
     hash: "#projects",
   },
@@ -59,30 +55,30 @@ export const experiencesData = [
 
 export const projectsData = [
   {
-    title: "CorpComment",
+    title: "Portfolio",
     description:
-      "I worked as a full-stack developer on this startup project for 2 years. Users can give public feedback to companies.",
-    tags: ["React", "Next.js", "MongoDB", "Tailwind", "Prisma"],
+      "Ce portfolio",
+    tags: ["React", "Next.js", "TailwindCSS","Framer-Motion"],
     imageUrl:"",
   },
   {
-    title: "rmtDev",
+    title: "Vapeur",
     description:
-      "Job board for remote developer jobs. I was the front-end developer. It has features like filtering, sorting and pagination.",
-    tags: ["React", "TypeScript", "Next.js", "Tailwind", "Redux"],
+      "Une application mobile permettant la recommandation d'éléments à l'utilisateur sans qu'il n'ait besoin de se connecter.",
+    tags: ["React", "Next.js", "SQL", "Tailwind", "Framer"],
     imageUrl: "",
   },
-  {
-    title: "Word Analytics",
+   {
+    title: "Horizon",
     description:
-      "A public web app for quick analytics on text. It shows word count, character count and social media post limits.",
-    tags: ["React", "Next.js", "SQL", "Tailwind", "Framer"],
+      "Une application web complète qui simplifie la gestion de projets pour les équipes. Interface intuitive et outils puissants pour planifier, suivre et livrer des projets efficacement.",
+    tags: ["React", "Next.js", "MongoDB", "Laravel", "PHP"],
     imageUrl: "",
   },
 ] as const;
 
 export const skillsData = {
-  languages: [
+  langages: [
     "C/C++",
     "Java/JEE", 
     "Python",
@@ -112,7 +108,7 @@ export const skillsData = {
     "API REST",
     "Design Patterns"
   ],
-  databases: [
+  BDD: [
     "PostgreSQL",
     "MySQL",
     "Redis",
@@ -128,7 +124,7 @@ export const skillsData = {
     "GitHub",
     "GitLab"
   ],
-  methodologies: [
+  méthodologies: [
     "Méthode Agile (SCRUM)",
     "TDD (Test-Driven Development)",
     "Principes SOLID"

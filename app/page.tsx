@@ -3,7 +3,7 @@ import Image from "next/image";
 import SectionDivider from "@/components/SectionDivider";
 export default function Home() {
   return (
-   <main className="flex-col items-center text-center">
+   <main className=" flex flex-col items-center text-center">
     <Description/>
     <SectionDivider/>
    </main>

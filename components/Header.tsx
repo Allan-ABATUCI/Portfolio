@@ -9,7 +9,7 @@ export default function Header() {
                 border border-white border-opacity-40 bg-white bg-opacity-80 shadow-lg shadow-black/3 
                 backdrop-blur-sm sm:top-6 sm:h-13 sm:w-xl sm:rounded-full dark:bg-gray-950 dark:border-black/40 dark:bg-opacity-75"
                 initial={{y:-100,opacity:0.5}}
-                animate={{y:0,opacity:75}}
+                animate={{y:0,opacity:0.75}}
                 > 
                 
                 </motion.div>
@@ -26,7 +26,7 @@ export default function Header() {
                         >
                         <Link
                             className=
-                            "flex w-full items-center justify-center px-2 py-3 hover:text-gray-950 transition"
+                            "flex w-full items-center justify-center px-3 py-3 hover:text-gray-950 transition"
                             href={link.hash}
                             >
 
