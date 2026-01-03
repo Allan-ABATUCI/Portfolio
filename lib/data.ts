@@ -65,14 +65,14 @@ export const projectsData = [
     title: "Vapeur",
     description:
       "Une application mobile permettant la recommandation d'éléments à l'utilisateur sans qu'il n'ait besoin de se connecter.",
-    tags: ["React", "Next.js", "SQL", "Tailwind", "Framer"],
+    tags: ["React Native", "SQLite","AsyncStorage"],
     imageUrl: "",
   },
    {
     title: "Horizon",
     description:
       "Une application web complète qui simplifie la gestion de projets pour les équipes. Interface intuitive et outils puissants pour planifier, suivre et livrer des projets efficacement.",
-    tags: ["React", "Next.js", "MongoDB", "Laravel", "PHP"],
+    tags: ["React", "MongoDB", "Laravel", "PHP"],
     imageUrl: "",
   },
 ] as const;
@@ -112,7 +112,9 @@ export const skillsData = {
     "PostgreSQL",
     "MySQL",
     "Redis",
-    "MongoDB"
+    "MongoDB",
+    "SQLite",
+    "AsyncStorage"
   ],
   devops: [
     "Docker",
