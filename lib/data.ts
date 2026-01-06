@@ -66,7 +66,7 @@ export const projectsData = [
     description:
       "Une application mobile permettant la recommandation d'éléments à l'utilisateur sans qu'il n'ait besoin de se connecter.",
     tags: ["React Native", "SQLite","AsyncStorage"],
-    imageUrl: "",
+    imageUrl: "@/public/vapeurhome.webp",
   },
    {
     title: "Horizon",
