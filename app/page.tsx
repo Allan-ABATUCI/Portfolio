@@ -1,5 +1,4 @@
 import Description from "@/components/Description";
-import Image from "next/image";
 import SectionDivider from "@/components/SectionDivider";
 import Projects from "@/components/Projects";
 export default function Home() {

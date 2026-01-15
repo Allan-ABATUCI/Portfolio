@@ -16,14 +16,6 @@ export const links = [
     name: "Compétences",
     hash: "#skills",
   },
-  {
-    name: "Expérience",
-    hash: "#experience",
-  },
-  {
-    name: "Contact",
-    hash: "#contact",
-  },
 ] as const;
 
 export const experiencesData = [
@@ -71,7 +63,7 @@ export const projectsData = [
    {
     title: "Horizon",
     description:
-      "Une application web complète qui simplifie la gestion de projets pour les équipes. Interface intuitive et outils puissants pour planifier, suivre et livrer des projets efficacement.",
+      "Une application web qui simplifie la gestion de projets pour les équipes. Interface intuitive et outils puissants pour planifier, suivre et livrer des projets efficacement.",
     tags: ["React", "MongoDB", "Laravel", "PHP"],
     imageUrl: require ("../public/vapeurhome.webp"),
   },

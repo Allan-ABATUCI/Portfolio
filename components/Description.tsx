@@ -5,12 +5,18 @@ import Link from "next/link";
 import { BsArrowRight, BsLinkedin } from "react-icons/bs";
 import { HiDownload } from "react-icons/hi";
 import { FaGithubSquare } from "react-icons/fa";
-
+import { useActiveSectionContext } from "@/hooks/active-section-context";
+import { useSectionInView } from "@/lib/hooks";
 
 export default function Description() {
+    const { activeSection, setActiveSection, setTimeOfLastClick } =
+    useActiveSectionContext();
+    const { ref } = useSectionInView("Accueil", 0.5);
+    
   return (
     <section
       id="home"
+      ref={ref}
       className="mb-28 max-w-200 text-center sm:mb-0 scroll-mt-400"
     >
       <div className=" items-center justify-center">
