@@ -52,6 +52,7 @@ export const projectsData = [
       "Ce portfolio",
     tags: ["React", "Next.js", "TailwindCSS","Framer-Motion"],
     imageUrl: require ("../public/vapeurhome.webp"),
+    link:"https://github.com/Allan-ABATUCI/Portfolio"
   },
   {
     title: "Vapeur",
@@ -59,6 +60,7 @@ export const projectsData = [
       "Une application mobile permettant la recommandation d'éléments à l'utilisateur sans qu'il n'ait besoin de se connecter.",
     tags: ["React Native", "SQLite","AsyncStorage"],
     imageUrl:require ("../public/vapeurhome.webp"),
+    link:"https://github.com/Ruben-Dubord/S501-Groupe-Silksong-Projet-Vapeur"
   },
    {
     title: "Horizon",
@@ -66,6 +68,7 @@ export const projectsData = [
       "Une application web qui simplifie la gestion de projets pour les équipes. Interface intuitive et outils puissants pour planifier, suivre et livrer des projets efficacement.",
     tags: ["React", "MongoDB", "Laravel", "PHP"],
     imageUrl: require ("../public/vapeurhome.webp"),
+    link:"https://github.com/Allan-ABATUCI/Horizon"
   },
 ] as const;
 
